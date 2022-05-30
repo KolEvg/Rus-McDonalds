@@ -1,15 +1,21 @@
-import { View, Text } from "react-native";
+import React from "react";
+import { View } from "react-native";
+import { COLORS } from "./constants";
+import Categories from "./src/components/Categories";
+import Header from './src/components/Header';
+import Popular from "./src/components/Popular";
 
 export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
+    <View style={{ 
+      padding: 25, 
+      paddingTop: 55,
+      paddingBottom: 75, 
+      backgroundColor: COLORS.black 
+      }}>
+      <Header />
+      <Categories />
+      <Popular />
     </View>
   );
 }

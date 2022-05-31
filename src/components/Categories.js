@@ -8,8 +8,8 @@ function Categories() {
   const [active, setActive] = useState(null);
   return (
     <View style={{ paddingTop: 20 }}>
-      <Text style={{ fontSize: SIZES.h1, color: COLORS.white, fontWeight: 'bold' }}>Hey,</Text>
-      <Text style={{ fontSize: SIZES.h1, color: COLORS.white }}>what's up?</Text>
+      <Text style={{ fontSize: SIZES.h1, color: COLORS.white, fontWeight: 'bold' }}>Привет,</Text>
+      <Text style={{ fontSize: SIZES.h1, color: COLORS.white }}>как дела?</Text>
 
       <View style={{
         marginTop: 30,

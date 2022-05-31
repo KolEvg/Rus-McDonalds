@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TouchableHighlight, Image, Pressable, TouchableWithoutFeedback } from "react-native";
+import { View, Text, Image, TouchableWithoutFeedback } from "react-native";
 
 import { COLORS, SIZES } from '../../constants';
 import { popular } from '../../popular';
@@ -8,7 +8,7 @@ function Popular() {
   const [active, setActive] = useState(null);
   return (
     <View style={{ paddingTop: 60 }}>
-      <Text style={{ fontSize: SIZES.h1, color: COLORS.white, fontWeight: 'bold' }}>Popular</Text>
+      <Text style={{ fontSize: SIZES.h1, color: COLORS.white, fontWeight: 'bold' }}>Популярное</Text>
 
       <View style={{
         marginTop: 30,

@@ -12,7 +12,7 @@ function Header() {
     >
 
       <View>
-        <TouchableHighlight onPress={() => Linking.openURL('https://google.com')} >
+        <TouchableHighlight onPress={() => Linking.openURL('https://github.com/KolEvg/Rus-McDonalds')} >
           <Image
             source={{
               uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/640px-McDonald%27s_Golden_Arches.svg.png',
